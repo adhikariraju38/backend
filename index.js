@@ -10,7 +10,7 @@ const user_routes = require("./routes/user");
 const cred_routes = require("./routes/credential");
 const reserve_routes = require("./routes/reservation");
 const contact_routes = require("./routes/contact");
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 8000
 var cors = require("cors");
 app.use(express.json());
 
